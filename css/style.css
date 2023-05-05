@@ -55,8 +55,20 @@ h1 {
 
 
 .card {
-    width: 300px;
+    float: left;
+    width: calc(100% / 3 - 10px);
+    margin: 5px;
     background-color: #100e17;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+img {
+    width: 30%;
 }
 
 
@@ -69,3 +81,6 @@ h1 {
 .card {
     border: 2px dashed red;
 }
+
+
+
