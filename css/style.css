@@ -8,7 +8,11 @@ back-ground contact
 
 text
 #212529
+
+mail
+#3997db
 */
+
 
 /* 
 |
@@ -56,9 +60,10 @@ h1 {
 
 .card {
     float: left;
-    width: calc(100% / 3 - 10px);
-    margin: 5px;
     background-color: #100e17;
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+    color: white;
 }
 
 .clearfix::after {
@@ -67,9 +72,42 @@ h1 {
     clear: both;
 }
 
-img {
+img { 
     width: 30%;
+    float: left; 
 }
+
+.info-about {
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+.the-job {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+a {
+    font-size: 14px;
+}
+
+a:link, a:visited {
+    color: #3997db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: yellow;
+}
+
 
 
 /* 
@@ -78,9 +116,11 @@ img {
 |
  */
 
-.card {
-    border: 2px dashed red;
-}
+
+
+
+
+
 
 
 
