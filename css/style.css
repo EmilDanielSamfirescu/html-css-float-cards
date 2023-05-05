@@ -65,7 +65,7 @@ h1 {
     margin-bottom: 20px;
     margin-top: 20px;
     color: white;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0  0 15px rgba(0, 0, 0, 0.25);
 }
 
 .card:nth-of-type(3n+2){
@@ -109,10 +109,19 @@ a:link, a:visited {
 
 a:hover {
     color: white;
+    transition: all 0.5s;
 }
 
 a:active {
     color: yellow;
+}
+
+.card:hover {
+    transform: translate(0, -5px);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.40);
+    transition: all 1s;
+    cursor: pointer;
+
 }
 
 
