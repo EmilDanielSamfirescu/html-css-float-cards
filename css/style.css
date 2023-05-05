@@ -61,9 +61,16 @@ h1 {
 .card {
     float: left;
     background-color: #100e17;
-    width: calc(100% / 3 - 40px);
-    margin: 20px;
+    width: calc(100% / 3 - 10px);
+    margin-bottom: 20px;
+    margin-top: 20px;
     color: white;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:nth-of-type(3n+2){
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .clearfix::after {
@@ -115,6 +122,8 @@ a:active {
 |Debug
 |
  */
+
+
 
 
 
